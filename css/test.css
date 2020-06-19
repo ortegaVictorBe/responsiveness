@@ -1,14 +1,17 @@
 body{
-    background-color: #f7fbe1;
+    background-color: #fbe1e2;
 }
 
 #small{
     float: left;
+    
 }
 #medium{
   
+    float: left;
     
 }
 #large{
-    float: right;
+    float: left;
+    
 }

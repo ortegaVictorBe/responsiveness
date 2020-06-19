@@ -5,13 +5,16 @@ body{
     body{background-color: #bac964;}
     #small{
         display: block;
-        float:left;}
+        float:left;
+        clear: both;}
     #medium{
         display: none;
-        float:left;}
+        float:left;
+        clear: both;}
     #large{
         display: none; 
-        float:left;}
+        float:left;
+        clear: both;}
 
     }        
 
@@ -19,7 +22,8 @@ body{
         body{background-color: #438a5e;} 
         #small{
             display: none; 
-            float: left;}
+            float: left;
+            }
         #medium{
             display: block;}
         #large{display: none;
@@ -29,11 +33,14 @@ body{
 @media screen and (min-width: 1024px){  
     body{background-color: #436f8a;}  
     #small{
-        display: none;}
+        display: none;
+        float: left;}
     #medium{
-        display: none;}
+        display: none;
+        float: left;}
     #large{
-        display: block;}  
+        display: block;
+        float: left;}  
     }
 
     #small, #medium, #large{
